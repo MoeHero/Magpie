@@ -47,18 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseFunction.cs" />
-    <Compile Include="Config.cs" />
     <Compile Include="Events.cs" />
-    <Compile Include="Functions\AddAdminFunction.cs" />
-    <Compile Include="Functions\DisableFunction.cs" />
-    <Compile Include="Functions\EnableFunction.cs" />
-    <Compile Include="Functions\GroupDisableFunction.cs" />
-    <Compile Include="Functions\GroupEnableFunction.cs" />
-    <Compile Include="Functions\RemoveAdminFunction.cs" />
-    <Compile Include="IFunction.cs" />
+    <Compile Include="ExclusiveTitleLottery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Routes.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Native.Sdk\Native.Sdk.csproj">

@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Native.Core</RootNamespace>
-    <AssemblyName>com.moehero.magpie.Code</AssemblyName>
+    <AssemblyName>com.moehero.magpie</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -133,7 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\com.moehero.magpie.Code\com.moehero.magpie.Code.csproj">
-      <Project>{8279d7f3-2b9f-4bf0-bdbf-e858d503a589}</Project>
+      <Project>{8279D7F3-2B9F-4BF0-BDBF-E858D503A589}</Project>
       <Name>com.moehero.magpie.Code</Name>
     </ProjectReference>
     <ProjectReference Include="..\Native.Sdk\Native.Sdk.csproj">

@@ -8,18 +8,11 @@
 	"description": "丧妹的头衔抽奖机器人",
 	"event": [
 		{
-			"id": 1,
-			"type": 21,
-			"name": "私聊消息处理",
-			"function": "_eventPrivateMsg",
-			"priority": 30000
-		},
-		{
 			"id": 2,
 			"type": 2,
 			"name": "群消息处理",
-			"function": "_eventGroupMsg",
-			"priority": 30000
+			"priority": 30000,
+			"function": "_eventGroupMsg"
 		},
 		{
 			"id": 1001,
@@ -54,16 +47,8 @@
 	"status": [],
 	"auth": [
 		101, //发送群消息         sendGroupMsg
-		106, //发送私聊消息       sendPrivateMsg
-		120, //置群员移除         setGroupKick
-		121, //置群员禁言         setGroupBan
-		126, //置群成员名片       setGroupCard
-		130, //取群成员信息       getGroupMemberInfo
-		131, //取陌生人信息       getStrangerInfo
-		132, //取群信息           getGroupInfo
-		160, //取群成员列表       getGroupMemberList
-		161, //取群列表           getGroupList
-		162, //取好友列表         getFriendList
-		180 //撤回消息           deleteMsg
+		128, //置群成员专属头衔   setGroupSpecialTitle
+        130, //取群成员信息       getGroupMemberInfo
+		160  //取群成员列表       getGroupMemberList
 	]
 }
